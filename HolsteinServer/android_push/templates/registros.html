@@ -1,0 +1,31 @@
+{% extends 'mibase.html' %}
+{% load crispy_forms_tags %}
+{% block title %}Registros{% endblock %}
+
+{% block javascript %}
+<link href="/static/css/multi-select.css" rel="stylesheet" type="text/css"/>
+<script src="/static/js/jquery.multi-select.js" type="text/javascript"></script>
+{% endblock %}
+
+{% block javascript_ready %}
+
+{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-4">
+    	<h3>Dispositivos registrados para el servicio de Envío de Notiicación</h3>
+	    <ul style="list-style: none">
+		{% for reg in registros %}
+		    <li>{{ reg.usuario.first_name }} {{ reg.usuario.last_name }} - {{ reg.modelo }}</li>
+		{% empty %}
+		    <li>No hay registros.</li>
+		{% endfor %}
+		</ul>
+    </div>
+</div>
+{% endblock %}
+	
+{% block modals %}
+{% endblock %}
+			

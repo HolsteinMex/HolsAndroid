@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="SQLite -" uuid="eea7b8d7-8bd6-47d1-8ca1-dc4c618ba29f">
+    <database-info product="SQLite" version="3.7.6.3" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native"/>
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed"/>
+    <schema name="" catalog=""/>
+    <table name="CalifToro" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="NoHato" sqlType="VARCHAR(10)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="Fecha" sqlType="DATETIME" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="NoRegistro" sqlType="VARCHAR(10)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="RegPadre" sqlType="VARCHAR(10)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="RegMadre" sqlType="VARCHAR(10)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="FechaNac" sqlType="DATETIME" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="CalifAnt" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="ClaseAnt" sqlType="VARCHAR(3)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="Estad_NacReg" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="Tipo" sqlType="VARCHAR(4)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="FechaProceso" sqlType="DATETIME" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="VacasHato" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="LechekgH" sqlType="DECIMAL" precision="2000000000" scale="10" nullable="false" jdbcType="6"/>
+      <column name="LecheEM" sqlType="DECIMAL" precision="2000000000" scale="10" nullable="false" jdbcType="6"/>
+      <column name="DiasLeche" sqlType="DECIMAL" precision="2000000000" scale="10" nullable="false" jdbcType="6"/>
+      <column name="PVacasCarga" sqlType="DECIMAL" precision="2000000000" scale="10" nullable="false" jdbcType="6"/>
+      <column name="DiasPico" sqlType="DECIMAL" precision="2000000000" scale="10" nullable="false" jdbcType="6"/>
+      <column name="LechePico" sqlType="DECIMAL" precision="2000000000" scale="10" nullable="false" jdbcType="6"/>
+      <column name="PDesecho" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="EdadMM" sqlType="DECIMAL" precision="2000000000" scale="10" nullable="false" jdbcType="6"/>
+      <column name="Dias1Serv" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="PFertil1Serv" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="InterServ" sqlType="DECIMAL" precision="2000000000" scale="10" nullable="false" jdbcType="6"/>
+      <column name="ServxConc" sqlType="DECIMAL" precision="2000000000" scale="10" nullable="false" jdbcType="6"/>
+      <column name="DiasAb" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="InterPartos" sqlType="DECIMAL" precision="2000000000" scale="10" nullable="false" jdbcType="6"/>
+      <column name="PAbortos" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="PGrasa" sqlType="DECIMAL" precision="2000000000" scale="10" nullable="false" jdbcType="6"/>
+      <column name="PProteina" sqlType="DECIMAL" precision="2000000000" scale="10" nullable="false" jdbcType="6"/>
+      <column name="PSolidos" sqlType="DECIMAL" precision="2000000000" scale="10" nullable="false" jdbcType="6"/>
+      <column name="NitrogU" sqlType="DECIMAL" precision="2000000000" scale="10" nullable="false" jdbcType="6"/>
+      <column name="CCSMiles" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="Estadisticos" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="NoHato" sqlType="VARCHAR(10)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="FechaVisita" sqlType="DATETIME" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="Region" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="Estado" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="VacasHato" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="LechekgH" sqlType="DECIMAL" precision="2000000000" scale="10" nullable="false" jdbcType="6"/>
+      <column name="LecheEM" sqlType="DECIMAL" precision="2000000000" scale="10" nullable="false" jdbcType="6"/>
+      <column name="DiasLeche" sqlType="DECIMAL" precision="2000000000" scale="10" nullable="false" jdbcType="6"/>
+      <column name="PVacasCarga" sqlType="DECIMAL" precision="2000000000" scale="10" nullable="false" jdbcType="6"/>
+      <column name="DiasPico" sqlType="DECIMAL" precision="2000000000" scale="10" nullable="false" jdbcType="6"/>
+      <column name="LechePico" sqlType="DECIMAL" precision="2000000000" scale="10" nullable="false" jdbcType="6"/>
+      <column name="PDesecho" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="EdadMM" sqlType="DECIMAL" precision="2000000000" scale="10" nullable="false" jdbcType="6"/>
+      <column name="Dias1Serv" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="PFertil1Serv" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="InterServ" sqlType="DECIMAL" precision="2000000000" scale="10" nullable="false" jdbcType="6"/>
+      <column name="ServxConc" sqlType="DECIMAL" precision="2000000000" scale="10" nullable="false" jdbcType="6"/>
+      <column name="DiasAb" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="InterPartos" sqlType="DECIMAL" precision="2000000000" scale="10" nullable="false" jdbcType="6"/>
+      <column name="PAbortos" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="PGrasa" sqlType="DECIMAL" precision="2000000000" scale="10" nullable="false" jdbcType="6"/>
+      <column name="PProteina" sqlType="DECIMAL" precision="2000000000" scale="10" nullable="false" jdbcType="6"/>
+      <column name="PSolidos" sqlType="DECIMAL" precision="2000000000" scale="10" nullable="false" jdbcType="6"/>
+      <column name="NitrogU" sqlType="DECIMAL" precision="2000000000" scale="10" nullable="false" jdbcType="6"/>
+      <column name="CCSMiles" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="Procesado" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_Estadisticos_1" columns="Estado" ref-table="Estados" ref-schema="" ref-catalog="" ref-columns="ClaveEdo" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_Estadisticos_2" columns="Region" ref-table="Regiones" ref-schema="" ref-catalog="" ref-columns="Region" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="Estadisticos_cebf8c50" unique="true" columns="Estado"/>
+      <index name="Estadisticos_effb90f6" unique="true" columns="Region"/>
+    </table>
+    <table name="Estados" schema="" catalog="" type="TABLE">
+      <column name="ClaveEdo" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="Abrev" sqlType="VARCHAR(6)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <primary-key columns="ClaveEdo"/>
+    </table>
+    <table name="Regiones" schema="" catalog="" type="TABLE">
+      <column name="Region" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="Nombre" sqlType="VARCHAR(50)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <primary-key columns="Region"/>
+    </table>
+    <table name="administracion_grupo" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="nombre" sqlType="VARCHAR(50)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="descripcion" sqlType="VARCHAR(140)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="administracion_grupo_menus" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="grupo_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="menu_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_administracion_grupo_menus_1" columns="menu_id" ref-table="administracion_menu" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="administracion_grupo_menus_08fd5523" unique="true" columns="menu_id"/>
+      <index name="administracion_grupo_menus_cbe01404" unique="true" columns="grupo_id"/>
+    </table>
+    <table name="administracion_menu" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="nombre" sqlType="VARCHAR(140)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="url" sqlType="VARCHAR(140)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="padre_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="icono" sqlType="VARCHAR(50)" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_administracion_menu_1" columns="padre_id" ref-table="administracion_menu" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="administracion_menu_b475db24" unique="true" columns="padre_id"/>
+    </table>
+    <table name="administracion_perfil" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="usuario_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="telefono" sqlType="VARCHAR(140)" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="hatos" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="administracion_perfil_grupo" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="perfil_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="grupo_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_administracion_perfil_grupo_1" columns="grupo_id" ref-table="administracion_grupo" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="administracion_perfil_grupo_cbe01404" unique="true" columns="grupo_id"/>
+      <index name="administracion_perfil_grupo_7fdfc031" unique="true" columns="perfil_id"/>
+    </table>
+    <table name="android_push_registro" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="usuario_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="reg" sqlType="TEXT" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="modelo" sqlType="VARCHAR(140)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+      <index name="android_push_registro_c69e2c81" unique="true" columns="usuario_id"/>
+    </table>
+    <table name="auth_group" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="name" sqlType="VARCHAR(80)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="auth_group_permissions" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="group_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="permission_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_auth_group_permissions_1" columns="permission_id" ref-table="auth_permission" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_auth_group_permissions_2" columns="group_id" ref-table="auth_group" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="auth_group_permissions_8373b171" unique="true" columns="permission_id"/>
+      <index name="auth_group_permissions_0e939a4f" unique="true" columns="group_id"/>
+    </table>
+    <table name="auth_permission" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="name" sqlType="VARCHAR(50)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="content_type_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="codename" sqlType="VARCHAR(100)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_auth_permission_1" columns="content_type_id" ref-table="django_content_type" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="auth_permission_417f1b1c" unique="true" columns="content_type_id"/>
+    </table>
+    <table name="auth_user" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="password" sqlType="VARCHAR(128)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="last_login" sqlType="DATETIME" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="is_superuser" sqlType="BOOL" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="username" sqlType="VARCHAR(30)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="first_name" sqlType="VARCHAR(30)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="last_name" sqlType="VARCHAR(30)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="email" sqlType="VARCHAR(75)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="is_staff" sqlType="BOOL" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="is_active" sqlType="BOOL" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="date_joined" sqlType="DATETIME" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="auth_user_groups" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="user_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="group_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_auth_user_groups_1" columns="group_id" ref-table="auth_group" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_auth_user_groups_2" columns="user_id" ref-table="auth_user" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="auth_user_groups_0e939a4f" unique="true" columns="group_id"/>
+      <index name="auth_user_groups_e8701ad4" unique="true" columns="user_id"/>
+    </table>
+    <table name="auth_user_user_permissions" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="user_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="permission_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_auth_user_user_permissions_1" columns="permission_id" ref-table="auth_permission" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_auth_user_user_permissions_2" columns="user_id" ref-table="auth_user" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="auth_user_user_permissions_8373b171" unique="true" columns="permission_id"/>
+      <index name="auth_user_user_permissions_e8701ad4" unique="true" columns="user_id"/>
+    </table>
+    <table name="calificaciones_califvaca" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="NoHato" sqlType="VARCHAR(10)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="Fecha" sqlType="DATETIME" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="Curv" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="NoCP" sqlType="VARCHAR(6)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="NoRegistro" sqlType="VARCHAR(10)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="RegPadre" sqlType="VARCHAR(10)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="RegMadre" sqlType="VARCHAR(10)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="FechaNac" sqlType="DATETIME" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="NoLactancia" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="FechaParto" sqlType="DATETIME" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="CalifAnt" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="ClaseAnt" sqlType="VARCHAR(3)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="TipoParto" sqlType="VARCHAR(1)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="LacNorm" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="MesesAborto" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="c1" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="c2" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="c3" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="c4" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="c5" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="c6" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="c7" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="c8" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="c8a" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="c9" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="c10" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="c11" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="c12" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="c13" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="c14" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="c15" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="c16" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="c17" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="c18" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="c19" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="c20" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="c21" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="c22" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="c23" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="c24" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="ss1" sqlType="VARCHAR(3)" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="ss2" sqlType="VARCHAR(3)" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="ss3" sqlType="VARCHAR(3)" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="ss4" sqlType="VARCHAR(3)" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="Def10" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="Def11" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="Def22" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="Def23" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="Def24" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="Def25" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="Def26" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="Def27" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="Def28" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="Def29" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="Def30" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="Def31" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="Def32" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="Def34" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="Def35" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="Def36" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="Def40" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="Def42" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="Def43" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="Def44" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="Def45" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="Puntos" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="Clase" sqlType="VARCHAR(3)" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="PuntosCalif" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="ClaseCalif" sqlType="VARCHAR(3)" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="FechaCalif" sqlType="DATE" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="django_admin_log" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="action_time" sqlType="DATETIME" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="object_id" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="object_repr" sqlType="VARCHAR(200)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="action_flag" sqlType="SMALLINT UNSIGNED" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="change_message" sqlType="TEXT" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="content_type_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="user_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_django_admin_log_1" columns="user_id" ref-table="auth_user" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_django_admin_log_2" columns="content_type_id" ref-table="django_content_type" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="django_admin_log_e8701ad4" unique="true" columns="user_id"/>
+      <index name="django_admin_log_417f1b1c" unique="true" columns="content_type_id"/>
+    </table>
+    <table name="django_content_type" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="name" sqlType="VARCHAR(100)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="app_label" sqlType="VARCHAR(100)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="model" sqlType="VARCHAR(100)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="django_migrations" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="app" sqlType="VARCHAR(255)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="name" sqlType="VARCHAR(255)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="applied" sqlType="DATETIME" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="django_session" schema="" catalog="" type="TABLE">
+      <column name="session_key" sqlType="VARCHAR(40)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="session_data" sqlType="TEXT" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="expire_date" sqlType="DATETIME" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <primary-key columns="session_key"/>
+      <index name="django_session_de54fa62" unique="true" columns="expire_date"/>
+    </table>
+    <table name="sqlite_sequence" schema="" catalog="" type="TABLE">
+      <column name="name" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="seq" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+    </table>
+  </data-source>
+  <data-source name="Django default" uuid="4f9b7cd3-dee7-4485-8830-b87432a07328">
+    <database-info product="SQLite" version="3.8.11" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native"/>
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed"/>
+    <schema name="" catalog=""/>
+    <table name="CalifToro" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="NoHato" sqlType="VARCHAR(10)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="Fecha" sqlType="DATETIME" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="NoRegistro" sqlType="VARCHAR(10)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="RegPadre" sqlType="VARCHAR(10)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="RegMadre" sqlType="VARCHAR(10)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="FechaNac" sqlType="DATETIME" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="CalifAnt" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="ClaseAnt" sqlType="VARCHAR(3)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="Estad_NacReg" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="Tipo" sqlType="VARCHAR(4)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="FechaProceso" sqlType="DATETIME" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="VacasHato" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="LechekgH" sqlType="DECIMAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="LecheEM" sqlType="DECIMAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="DiasLeche" sqlType="DECIMAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="PVacasCarga" sqlType="DECIMAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="DiasPico" sqlType="DECIMAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="LechePico" sqlType="DECIMAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="PDesecho" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="EdadMM" sqlType="DECIMAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="Dias1Serv" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="PFertil1Serv" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="InterServ" sqlType="DECIMAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="ServxConc" sqlType="DECIMAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="DiasAb" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="InterPartos" sqlType="DECIMAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="PAbortos" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="PGrasa" sqlType="DECIMAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="PProteina" sqlType="DECIMAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="PSolidos" sqlType="DECIMAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="NitrogU" sqlType="DECIMAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="CCSMiles" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="Estadisticos" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="NoHato" sqlType="VARCHAR(10)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="FechaVisita" sqlType="DATETIME" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="Region" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="Estado" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="VacasHato" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="LechekgH" sqlType="DECIMAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="LecheEM" sqlType="DECIMAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="DiasLeche" sqlType="DECIMAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="PVacasCarga" sqlType="DECIMAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="DiasPico" sqlType="DECIMAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="LechePico" sqlType="DECIMAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="PDesecho" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="EdadMM" sqlType="DECIMAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="Dias1Serv" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="PFertil1Serv" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="InterServ" sqlType="DECIMAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="ServxConc" sqlType="DECIMAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="DiasAb" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="InterPartos" sqlType="DECIMAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="PAbortos" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="PGrasa" sqlType="DECIMAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="PProteina" sqlType="DECIMAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="PSolidos" sqlType="DECIMAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="NitrogU" sqlType="DECIMAL" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="CCSMiles" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="Procesado" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_Estadisticos_1" columns="Estado" ref-table="Estados" ref-schema="" ref-catalog="" ref-columns="ClaveEdo" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_Estadisticos_2" columns="Region" ref-table="Regiones" ref-schema="" ref-catalog="" ref-columns="Region" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="Estadisticos_cebf8c50" unique="true" columns="Estado"/>
+      <index name="Estadisticos_effb90f6" unique="true" columns="Region"/>
+    </table>
+    <table name="Estados" schema="" catalog="" type="TABLE">
+      <column name="ClaveEdo" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="Abrev" sqlType="VARCHAR(6)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="claveedo"/>
+    </table>
+    <table name="Regiones" schema="" catalog="" type="TABLE">
+      <column name="Region" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="Nombre" sqlType="VARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="region"/>
+    </table>
+    <table name="administracion_grupo" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="nombre" sqlType="VARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="descripcion" sqlType="VARCHAR(140)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="administracion_grupo_menus" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="grupo_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="menu_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_administracion_grupo_menus_1" columns="menu_id" ref-table="administracion_menu" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="administracion_grupo_menus_08fd5523" unique="true" columns="menu_id"/>
+      <index name="administracion_grupo_menus_cbe01404" unique="true" columns="grupo_id"/>
+    </table>
+    <table name="administracion_menu" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="nombre" sqlType="VARCHAR(140)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="url" sqlType="VARCHAR(140)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="padre_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="icono" sqlType="VARCHAR(50)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_administracion_menu_1" columns="padre_id" ref-table="administracion_menu" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="administracion_menu_b475db24" unique="true" columns="padre_id"/>
+    </table>
+    <table name="administracion_perfil" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="usuario_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="telefono" sqlType="VARCHAR(140)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="hatos" sqlType="TEXT" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="administracion_perfil_grupo" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="perfil_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="grupo_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_administracion_perfil_grupo_1" columns="grupo_id" ref-table="administracion_grupo" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="administracion_perfil_grupo_cbe01404" unique="true" columns="grupo_id"/>
+      <index name="administracion_perfil_grupo_7fdfc031" unique="true" columns="perfil_id"/>
+    </table>
+    <table name="android_push_registro" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="usuario_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="reg" sqlType="TEXT" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="modelo" sqlType="VARCHAR(140)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+      <index name="android_push_registro_c69e2c81" unique="true" columns="usuario_id"/>
+    </table>
+    <table name="auth_group" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="name" sqlType="VARCHAR(80)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="auth_group_permissions" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="group_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="permission_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_auth_group_permissions_1" columns="permission_id" ref-table="auth_permission" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_auth_group_permissions_2" columns="group_id" ref-table="auth_group" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="auth_group_permissions_8373b171" unique="true" columns="permission_id"/>
+      <index name="auth_group_permissions_0e939a4f" unique="true" columns="group_id"/>
+    </table>
+    <table name="auth_permission" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="name" sqlType="VARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="content_type_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="codename" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_auth_permission_1" columns="content_type_id" ref-table="django_content_type" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="auth_permission_417f1b1c" unique="true" columns="content_type_id"/>
+    </table>
+    <table name="auth_user" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="password" sqlType="VARCHAR(128)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="last_login" sqlType="DATETIME" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="is_superuser" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="username" sqlType="VARCHAR(30)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="first_name" sqlType="VARCHAR(30)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="last_name" sqlType="VARCHAR(30)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="email" sqlType="VARCHAR(75)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="is_staff" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="is_active" sqlType="BOOL" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="date_joined" sqlType="DATETIME" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="auth_user_groups" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="user_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="group_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_auth_user_groups_1" columns="group_id" ref-table="auth_group" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_auth_user_groups_2" columns="user_id" ref-table="auth_user" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="auth_user_groups_0e939a4f" unique="true" columns="group_id"/>
+      <index name="auth_user_groups_e8701ad4" unique="true" columns="user_id"/>
+    </table>
+    <table name="auth_user_user_permissions" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="user_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="permission_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_auth_user_user_permissions_1" columns="permission_id" ref-table="auth_permission" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_auth_user_user_permissions_2" columns="user_id" ref-table="auth_user" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="auth_user_user_permissions_8373b171" unique="true" columns="permission_id"/>
+      <index name="auth_user_user_permissions_e8701ad4" unique="true" columns="user_id"/>
+    </table>
+    <table name="calificaciones_califvaca" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="NoHato" sqlType="VARCHAR(10)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="Fecha" sqlType="DATE" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="Curv" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="NoCP" sqlType="VARCHAR(6)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="NoRegistro" sqlType="VARCHAR(10)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="RegPadre" sqlType="VARCHAR(10)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="RegMadre" sqlType="VARCHAR(10)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="FechaNac" sqlType="DATE" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="NoLactancia" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="FechaParto" sqlType="DATE" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="CalifAnt" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="ClaseAnt" sqlType="VARCHAR(3)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="TipoParto" sqlType="VARCHAR(1)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="LacNorm" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="MesesAborto" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="c1" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="c2" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="c3" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="c4" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="c5" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="c6" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="c7" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="c8" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="c8a" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="c9" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="c10" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="c11" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="c12" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="c13" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="c14" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="c15" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="c16" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="c17" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="c18" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="c19" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="c20" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="c21" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="c22" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="c23" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="c24" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="ss1" sqlType="VARCHAR(3)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="ss2" sqlType="VARCHAR(3)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="ss3" sqlType="VARCHAR(3)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="ss4" sqlType="VARCHAR(3)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="Def10" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="Def11" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="Def22" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="Def23" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="Def24" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="Def25" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="Def26" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="Def27" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="Def28" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="Def29" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="Def30" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="Def31" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="Def32" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="Def34" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="Def35" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="Def36" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="Def40" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="Def42" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="Def43" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="Def44" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="Def45" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="Puntos" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="Clase" sqlType="VARCHAR(3)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="PuntosCalif" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="ClaseCalif" sqlType="VARCHAR(3)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="FechaCalif" sqlType="DATE" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="django_admin_log" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="action_time" sqlType="DATETIME" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="object_id" sqlType="TEXT" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="object_repr" sqlType="VARCHAR(200)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="action_flag" sqlType="SMALLINT UNSIGNED" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="change_message" sqlType="TEXT" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="content_type_id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="user_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_django_admin_log_1" columns="user_id" ref-table="auth_user" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_django_admin_log_2" columns="content_type_id" ref-table="django_content_type" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="django_admin_log_e8701ad4" unique="true" columns="user_id"/>
+      <index name="django_admin_log_417f1b1c" unique="true" columns="content_type_id"/>
+    </table>
+    <table name="django_content_type" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="name" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="app_label" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="model" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="django_migrations" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="app" sqlType="VARCHAR(255)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="name" sqlType="VARCHAR(255)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="applied" sqlType="DATETIME" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="django_session" schema="" catalog="" type="TABLE">
+      <column name="session_key" sqlType="VARCHAR(40)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="session_data" sqlType="TEXT" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="expire_date" sqlType="DATETIME" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="session_key"/>
+      <index name="django_session_de54fa62" unique="true" columns="expire_date"/>
+    </table>
+    <table name="sqlite_sequence" schema="" catalog="" type="TABLE">
+      <column name="name" sqlType="" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="seq" sqlType="" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+    </table>
+  </data-source>
+</component>

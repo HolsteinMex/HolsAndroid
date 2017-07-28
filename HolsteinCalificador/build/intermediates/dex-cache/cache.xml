@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinCalificador/app/libs/david-webb-1.1.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="219dccc05b9bd4cb17e5bcdb51879b8c2091560b">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinCalificador/app/build/intermediates/transforms/dex/debug/folders/1000/2/david-webb-1.1.0_7761534331c962c144ca690a4987038b3504e595/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinCalificador/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinCalificador/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.0.0_f43a132239700c468d7fa97f487bed8472c54006/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinCalificador/app/libs/itextpdf-5.5.6.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="be433b2a15054c900c551848804df2edf3aed5c7">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinCalificador/app/build/intermediates/transforms/dex/debug/folders/1000/2/itextpdf-5.5.6_07d6f68ae6f34bf3f7d390522052adb35c88f42d/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinCalificador/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinCalificador/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.4.0_edbed58fb0e216b9c36a7338121201c912ac2b5f/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinCalificador/app/libs/gson-2.3.1.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinCalificador/app/build/intermediates/transforms/dex/debug/folders/1000/2/gson-2.3.1_76164af450ae2d7cfd91f92eafdabe530283baf0/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinCalificador/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinCalificador/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_58e969106a7c8311075b219bc26713e23076ebbf/classes.dex" />
+    </item>
+    <item
+        jar="/home/mordor/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/24.0.0/2943c74db6d4346ab8c6531adac91fa05c137c40/support-annotations-24.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinCalificador/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0_34eb3dd4cf6fcc22f31e7f0ab32d6d8161a9b421/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinCalificador/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinCalificador/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.4.0_c39a8ef87670a738d76330717e635032bcd91926/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinCalificador/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="59a16a4a42d25b2c243dd1e8aea87d06895b4a06">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinCalificador/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-iid-9.4.0_01255d8196a8acebd0bcf875b0738ab1e6d2f116/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinCalificador/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="876fac9af3a96716a4f952630ecd44f5deec8298">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinCalificador/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_02940979fe70ed0d252f16cd3a1c33ce74f50b65/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinCalificador/app/libs/jsoup-1.8.2.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="580e4dd2a6125cc4037450b40623ac6a552c11df">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinCalificador/app/build/intermediates/transforms/dex/debug/folders/1000/2/jsoup-1.8.2_e4896f4d716547502e7467702c7b1fb1a29cd7eb/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinCalificador/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinCalificador/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.0.0_910d3535803ac3a6cc330abd0b89a67c3ddcfb9b/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinCalificador/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="ece40b09e9d4d488bc270cf6af5a9af73bc1cfa3">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinCalificador/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-9.4.0_16721a6182b4baad0c613b6f2e8464f7c4f63b9a/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinCalificador/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinCalificador/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-multidex-1.0.1_e00ae5a05586b5b493f59d18d964225c841bd9f0/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinCalificador/app/libs/xmlworker-5.5.6.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="189e2a4427ad6d5396e3419a62b48d2cf55b601e">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinCalificador/app/build/intermediates/transforms/dex/debug/folders/1000/2/xmlworker-5.5.6_b024b28914336edd7d54f61798cf75d0332c292a/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinCalificador/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinCalificador/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.0.0_7d9bafd60bf31d999399bac17d0aa48bc315de7d/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinCalificador/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinCalificador/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.0.0_7db57c85bac1397d66d6209c209529abbf816e58/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinCalificador/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinCalificador/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.4.0_ef1759278fd038c1bfc404e0fdd4277c09a2cad9/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinCalificador/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="7d891c2697ee5a595c5920a39ced2ca2bbfda37f">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinCalificador/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_bd2033921f8d79e809cb61c013bbe7113ea98594/classes.dex" />
+    </item>
+
+</items>

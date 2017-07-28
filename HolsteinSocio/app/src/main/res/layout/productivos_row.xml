@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/prod_tv_region"
+        android:text="Región X"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#ffffcc4b"></TextView>
+    <TextView
+        android:id="@+id/prod_tv_novacas"
+        android:layout_margin="5dp"
+        android:text="# Vacas"
+        android:textStyle="bold"
+        android:typeface="serif"></TextView>
+    <TextView
+        android:id="@+id/prod_tv_lechekg"
+        android:layout_margin="5dp"
+        android:text="Leche\nKG"
+        android:textStyle="bold"
+        android:typeface="serif"></TextView>
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/prod_tv_lecheem"
+        android:text="Leche\nEM"
+        android:textStyle="bold"
+        android:typeface="serif"></TextView>
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/prod_tv_diasleche"
+        android:text="Dias\nLeche"
+        android:textStyle="bold"
+        android:typeface="serif"></TextView>
+    <TextView
+        android:id="@+id/prod_tv_pvacascarg"
+        android:layout_margin="5dp"
+        android:text="% Vacas\nCargadas"
+        android:textStyle="bold"
+        android:typeface="serif"></TextView>
+    <TextView
+        android:id="@+id/prod_tv_diaspico"
+        android:layout_margin="5dp"
+        android:text="Días\nPico"
+        android:textStyle="bold"
+        android:typeface="serif"></TextView>
+    <TextView
+        android:id="@+id/prod_tv_lechepico"
+        android:layout_margin="5dp"
+        android:text="Leche\nPico"
+        android:textStyle="bold"
+        android:typeface="serif"></TextView>
+    <TextView
+        android:id="@+id/prod_tv_pdeshecho"
+        android:layout_margin="5dp"
+        android:text="% Deshecho"
+        android:textStyle="bold"
+        android:typeface="serif"></TextView>
+    <TextView
+        android:id="@+id/prod_tv_region2"
+        android:padding="5dp"
+        android:text="Región X"
+        android:textStyle="bold"
+        android:background="#ffffcc4b"></TextView>
+</TableRow>

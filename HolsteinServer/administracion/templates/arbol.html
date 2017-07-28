@@ -1,0 +1,15 @@
+<li id="{{m.id|lower}}" >
+    <a href="{{m.url}}">
+
+        {% if m.padre %}
+        <i class="fa {{ m.icono }}"></i>
+        <span class="nav-label">{{ m.name }}</span>
+        {% else %}{{ m.name }}{% endif %}
+
+        {% if m.menu %}<span class="fa arrow"></span>{% endif %}
+    </a>
+    {%if m.menu %}<ul class="nav {% if m.nivel == 1 %}nav-second-level{% elif m.nivel == 2 %}nav-third-level{% endif %} collapse">
+        {%for ch in m.menu %}{%with m=ch template_name="arbol.html" %}{%include template_name%}{%endwith%}{%endfor%}</ul>
+    {%endif%}</li>
+
+

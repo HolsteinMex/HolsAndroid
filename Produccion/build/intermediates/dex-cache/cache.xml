@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/Produccion/app/libs/itextpdf-5.5.6.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="be433b2a15054c900c551848804df2edf3aed5c7">
+        <dex dex="/archivos/ALEX/HOLSTEIN/Produccion/app/build/intermediates/pre-dexed/release/itextpdf-5.5.6_ad9db3179c59257818efd86d7759c718282e2d5c.jar" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/Produccion/app/libs/gson-2.3.1.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/archivos/ALEX/HOLSTEIN/Produccion/app/build/intermediates/transforms/dex/debug/folders/1000/2/gson-2.3.1_63f0f6486e3dfaace5173d08c23054884ddd5491/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/Produccion/app/libs/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/archivos/ALEX/HOLSTEIN/Produccion/app/build/intermediates/pre-dexed/release/gson-2.3.1_63f0f6486e3dfaace5173d08c23054884ddd5491.jar" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/Produccion/app/libs/itextpdf-5.5.6.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="be433b2a15054c900c551848804df2edf3aed5c7">
+        <dex dex="/archivos/ALEX/HOLSTEIN/Produccion/app/build/intermediates/transforms/dex/debug/folders/1000/2/itextpdf-5.5.6_ad9db3179c59257818efd86d7759c718282e2d5c/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/Produccion/app/libs/david-webb-1.1.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="219dccc05b9bd4cb17e5bcdb51879b8c2091560b">
+        <dex dex="/archivos/ALEX/HOLSTEIN/Produccion/app/build/intermediates/transforms/dex/debug/folders/1000/2/david-webb-1.1.0_7d3763cb44be42348beb310059b7df81ce7b8527/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/Produccion/app/libs/david-webb-1.1.0.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="219dccc05b9bd4cb17e5bcdb51879b8c2091560b">
+        <dex dex="/archivos/ALEX/HOLSTEIN/Produccion/app/build/intermediates/pre-dexed/release/david-webb-1.1.0_7d3763cb44be42348beb310059b7df81ce7b8527.jar" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/Produccion/app/libs/xmlworker-5.5.6.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="189e2a4427ad6d5396e3419a62b48d2cf55b601e">
+        <dex dex="/archivos/ALEX/HOLSTEIN/Produccion/app/build/intermediates/transforms/dex/debug/folders/1000/2/xmlworker-5.5.6_082ebba0f02ef833e7405f19cda65db95fbfe1e0/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/Produccion/app/libs/xmlworker-5.5.6.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="189e2a4427ad6d5396e3419a62b48d2cf55b601e">
+        <dex dex="/archivos/ALEX/HOLSTEIN/Produccion/app/build/intermediates/pre-dexed/release/xmlworker-5.5.6_082ebba0f02ef833e7405f19cda65db95fbfe1e0.jar" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/Produccion/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/archivos/ALEX/HOLSTEIN/Produccion/app/build/intermediates/pre-dexed/release/com.android.support-animated-vector-drawable-24.0.0_c53381892f5e2d5f9f775228dfaf6c5662365f12.jar" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/Produccion/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/archivos/ALEX/HOLSTEIN/Produccion/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.0.0_c53381892f5e2d5f9f775228dfaf6c5662365f12/classes.dex" />
+    </item>
+    <item
+        jar="/home/mordor/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/24.0.0/2943c74db6d4346ab8c6531adac91fa05c137c40/support-annotations-24.0.0.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/archivos/ALEX/HOLSTEIN/Produccion/app/build/intermediates/pre-dexed/release/support-annotations-24.0.0_34eb3dd4cf6fcc22f31e7f0ab32d6d8161a9b421.jar" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/Produccion/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/archivos/ALEX/HOLSTEIN/Produccion/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-24.0.0_7b62fb1ffc4ff55394be9f0c40161f5d74f5edb8.jar" />
+    </item>
+    <item
+        jar="/home/mordor/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/24.0.0/2943c74db6d4346ab8c6531adac91fa05c137c40/support-annotations-24.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/archivos/ALEX/HOLSTEIN/Produccion/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0_34eb3dd4cf6fcc22f31e7f0ab32d6d8161a9b421/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/Produccion/app/libs/jsoup-1.8.2.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="580e4dd2a6125cc4037450b40623ac6a552c11df">
+        <dex dex="/archivos/ALEX/HOLSTEIN/Produccion/app/build/intermediates/transforms/dex/debug/folders/1000/2/jsoup-1.8.2_cb2b5a532dbca74094f06857704e0aa8c63f53cd/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/Produccion/app/libs/jsoup-1.8.2.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="580e4dd2a6125cc4037450b40623ac6a552c11df">
+        <dex dex="/archivos/ALEX/HOLSTEIN/Produccion/app/build/intermediates/pre-dexed/release/jsoup-1.8.2_cb2b5a532dbca74094f06857704e0aa8c63f53cd.jar" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/Produccion/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="cf1aa43549994d61ad17750c3faaf9ddf4b7f946">
+        <dex dex="/archivos/ALEX/HOLSTEIN/Produccion/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d10a31dad185e46f9e8c3cf4e7d987be55f74201/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/Produccion/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/archivos/ALEX/HOLSTEIN/Produccion/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.0.0_7b62fb1ffc4ff55394be9f0c40161f5d74f5edb8/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/Produccion/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/archivos/ALEX/HOLSTEIN/Produccion/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_215d76955d8e8916dd367fd2d95366f67f3b2467/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/Produccion/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="/archivos/ALEX/HOLSTEIN/Produccion/app/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-24.0.0_5bc1d5c5a92aabd3be116a8dcce340e3989c0559.jar" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/Produccion/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="/archivos/ALEX/HOLSTEIN/Produccion/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.0.0_5bc1d5c5a92aabd3be116a8dcce340e3989c0559/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/Produccion/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="/archivos/ALEX/HOLSTEIN/Produccion/app/build/intermediates/pre-dexed/release/com.android.support-support-vector-drawable-24.0.0_697f983b971bc6ffb1f9184d20f06751bb28b8f3.jar" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/Produccion/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="1beacd62e2fefad96f6e0153d004b70b22a6d18d">
+        <dex dex="/archivos/ALEX/HOLSTEIN/Produccion/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_50e6d6afad74c9700febd7c1602b8c84428b9adb/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/Produccion/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/archivos/ALEX/HOLSTEIN/Produccion/app/build/intermediates/pre-dexed/release/internal_impl-24.0.0_215d76955d8e8916dd367fd2d95366f67f3b2467.jar" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/Produccion/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="/archivos/ALEX/HOLSTEIN/Produccion/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.0.0_697f983b971bc6ffb1f9184d20f06751bb28b8f3/classes.dex" />
+    </item>
+
+</items>

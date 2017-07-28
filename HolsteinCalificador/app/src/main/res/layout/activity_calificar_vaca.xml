@@ -1,0 +1,191 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    tools:context="com.abetancourt.holsteincalificador.CalificarVaca"
+    android:id="@+id/VacaLayout"
+    android:scrollIndicators="bottom|right">
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearance"
+        android:text="CALIFICAR VACA"
+        android:id="@+id/lblVacaCURV"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearance"
+        android:text="No. de Vaca"
+        android:id="@+id/lblVacaNoVaca"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/lblVacaCURV"
+        android:layout_toEndOf="@+id/lblVacaCURV" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearance"
+        android:text="No Registro"
+        android:id="@+id/lblVacaNoReg"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/lblVacaNoVaca"
+        android:layout_toEndOf="@+id/lblVacaNoVaca" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearance"
+        android:text="Registro Padre"
+        android:id="@+id/lblVacaRegPadre"
+        android:layout_below="@+id/lblVacaCURV"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearance"
+        android:text="Registro Madre"
+        android:id="@+id/lblVacaRegMadre"
+        android:layout_below="@+id/lblVacaCURV"
+        android:layout_toRightOf="@+id/lblVacaCURV"
+        android:layout_toEndOf="@+id/lblVacaCURV" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearance"
+        android:text="Fecha Nacimiento"
+        android:id="@+id/lblVacaFechaNac"
+        android:layout_below="@+id/lblVacaNoVaca"
+        android:layout_toRightOf="@+id/lblVacaNoVaca"
+        android:layout_toEndOf="@+id/lblVacaNoVaca" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearance"
+        android:text="No. de Parto"
+        android:id="@+id/lblVacaNoParto"
+        android:layout_below="@+id/lblVacaRegPadre"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearance"
+        android:text="Fecha de Parto"
+        android:id="@+id/lblVacaFechaParto"
+        android:layout_below="@+id/lblVacaRegPadre"
+        android:layout_toRightOf="@+id/lblVacaRegPadre"
+        android:layout_toEndOf="@+id/lblVacaRegPadre" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearance"
+        android:text="Calificación Anterior"
+        android:id="@+id/lblVacaCalifAnt"
+        android:layout_below="@+id/lblVacaRegMadre"
+        android:layout_toRightOf="@+id/lblVacaRegMadre"
+        android:layout_toEndOf="@+id/lblVacaRegMadre" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearance"
+        android:text="Clase Anterior"
+        android:id="@+id/lblVacaClaseAnt"
+        android:layout_below="@+id/lblVacaNoParto"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearance"
+        android:text="Tipo de Parto"
+        android:id="@+id/lblVacaTipoParto"
+        android:layout_below="@+id/lblVacaNoParto"
+        android:layout_toRightOf="@+id/lblVacaNoParto"
+        android:layout_toEndOf="@+id/lblVacaNoParto" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearance"
+        android:text="No. de Lact. Normales"
+        android:id="@+id/lblVacaNoLactNorm"
+        android:layout_below="@+id/lblVacaTipoParto"
+        android:layout_toRightOf="@+id/lblVacaTipoParto"
+        android:layout_toEndOf="@+id/lblVacaTipoParto" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearance"
+        android:text="Meses al Aborto"
+        android:id="@+id/lblVacaMesesAborto"
+        android:layout_below="@+id/lblVacaClaseAnt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblVacaMesesAborto"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:fillViewport="false" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollCalificacion"></LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearance"
+        android:text="lblVacaMesesPario"
+        android:id="@+id/lblVacaMesesPario"
+        android:layout_alignBottom="@+id/lblVacaMesesAborto"
+        android:layout_toRightOf="@+id/lblVacaClaseAnt"
+        android:layout_toEndOf="@+id/lblVacaClaseAnt" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearance"
+        android:text="FechaCalificación Anterior"
+        android:id="@+id/lblVacaFechaCalifAnt"
+        android:layout_alignTop="@+id/lblVacaTipoParto"
+        android:layout_toRightOf="@+id/lblVacaTipoParto"
+        android:layout_toEndOf="@+id/lblVacaTipoParto" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearance"
+        android:text="SOCIO"
+        android:id="@+id/lblVacaSocio"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/lblVacaNoReg"
+        android:layout_toEndOf="@+id/lblVacaNoReg" />
+
+
+</RelativeLayout>

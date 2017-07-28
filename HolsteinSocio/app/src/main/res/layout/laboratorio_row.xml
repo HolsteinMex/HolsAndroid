@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/lab_tv_region"
+        android:padding="5dp"
+        android:text="Hato"
+        android:textStyle="bold"
+        android:background="#fffffb6f"></TextView>
+    <TextView
+        android:id="@+id/lab_tv_pgrasa"
+        android:layout_margin="5dp"
+        android:text="Grasa %"
+        android:textStyle="bold"
+        android:typeface="serif"></TextView>
+    <TextView
+        android:id="@+id/lab_tv_pproteina"
+        android:layout_margin="5dp"
+        android:text="Proteína %"
+        android:textStyle="bold"
+        android:typeface="serif"></TextView>
+    <TextView
+        android:id="@+id/lab_tv_psng"
+        android:layout_margin="5dp"
+        android:text="S.N.G. %"
+        android:textStyle="bold"
+        android:typeface="serif"></TextView>
+    <TextView
+        android:id="@+id/lab_tv_nu"
+        android:layout_margin="5dp"
+        android:text="N.U. mg/dl"
+        android:textStyle="bold"
+        android:typeface="serif"></TextView>
+    <TextView
+        android:id="@+id/lab_tv_ccs"
+        android:layout_margin="5dp"
+        android:text="C.C.S."
+        android:textStyle="bold"
+        android:typeface="serif"></TextView>
+    <TextView
+        android:id="@+id/lab_tv_region2"
+        android:padding="5dp"
+        android:text="Hato"
+        android:textStyle="bold"
+        android:background="#fffffb6f"></TextView>
+
+</TableRow>

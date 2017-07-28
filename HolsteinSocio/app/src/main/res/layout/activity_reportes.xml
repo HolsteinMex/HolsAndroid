@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.alexbetancourt.holsteinsocio.Reportes">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/holstein"
+        android:scaleType = "centerCrop"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:alpha="0.1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mostrar Ultimo Reporte"
+        android:id="@+id/btnRepUltimo"
+        android:drawableLeft="@drawable/ic_action_bargraph"
+        android:layout_below="@+id/tvReportes"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Reportes Descargados"
+        android:id="@+id/tvReportes"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="center" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvReportes"
+        android:drawSelectorOnTop="false"
+        android:choiceMode="singleChoice"
+        tools:listitem="@android:layout/simple_list_item_1"
+        android:layout_alignLeft="@+id/btnRepUltimo"
+        android:layout_alignStart="@+id/btnRepUltimo"
+        android:layout_alignRight="@+id/btnRepUltimo"
+        android:layout_alignEnd="@+id/btnRepUltimo"
+        android:layout_below="@+id/btnRepHistorial" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mostrar Historial"
+        android:id="@+id/btnRepHistorial"
+        android:drawableLeft="@drawable/ic_action_calendar_day"
+        android:layout_below="@+id/btnRepUltimo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp" />
+
+</RelativeLayout>

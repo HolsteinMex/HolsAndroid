@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+{% load staticfiles %}
+<html>
+<head>
+<title>Holstein | {% block title %}{% endblock %}</title>
+<link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+<link href="{% static 'css/font-awesome.css' %}" rel="stylesheet">
+
+<link href="{% static 'css/animate.css' %}" rel="stylesheet">
+<link href="{% static 'css/style.css' %}" rel="stylesheet">
+<meta name="viewport" content="width=device-width,mana initial-scale=1">
+
+{% block css %}
+{% endblock %}
+
+<!--- End Hover Efeect -->
+</head>
+<body>
+<div id="wrapper">
+<nav class="navbar-default navbar-static-side" role="navigation">
+        <div class="sidebar-collapse">
+            <ul class="nav" id="side-menu">
+                <li class="nav-header">
+                    <div class="dropdown profile-element"> <span>
+                            <img alt="image" class="img-circle" src="{% static 'images/logo.png' %}" height="100px" />
+                             </span>
+                    </div>
+                    <div class="logo-element">
+                        <img alt="image" class="img-circle" src="{% static 'images/logo.png' %}" height="70px" />
+                    </div>
+                </li>
+                {%for m in menu %}{%include "arbol.html" %}{%endfor%}
+            </ul>
+
+        </div>
+    </nav>
+
+
+    <div id="page-wrapper" class="gray-bg">
+        <div class="row border-bottom">
+        <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+        <div class="navbar-header">
+            <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
+            <form role="search" class="navbar-form-custom" action="#">
+
+            </form>
+        </div>
+            <ul class="nav navbar-top-links navbar-right">
+
+                <li>
+                    <a href="{% url 'logout' %}">
+                        <i class="fa fa-sign-out"></i> Cerrar Sesión
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+        </div>
+
+    <div class="row wrapper border-bottom white-bg page-heading">
+                <div class="col-lg-10">
+                    <h2>{% block titulo_pagina %}{% endblock %}</h2>
+{#                    <ol class="breadcrumb">#}
+{#                        <li>#}
+{#                            <a href="index-2.html">Home</a>#}
+{#                        </li>#}
+{#                        <li>#}
+{#                            <a>Tables</a>#}
+{#                        </li>#}
+{#                        <li class="active">#}
+{#                            <strong>Data Tables</strong>#}
+{#                        </li>#}
+{#                    </ol>#}
+                </div>
+                <div class="col-lg-2">
+                </div>
+            </div>
+        <div class="wrapper wrapper-content animated fadeInRight">
+            {% block content %}
+            {% endblock %}
+            <div class="row">
+
+            </div>
+        </div>
+        <div class="footer">
+            <div class="pull-right">
+
+            </div>
+            <div>
+                <a href="#" style="color: #a9a9a9; font-size: 12px; text-decoration: none"><p><strong>Holstein 2015 &reg;</strong> Todos los derechos reservados.</p></a>
+            </div>
+        </div>
+
+        </div>
+        </div>
+
+
+{% block modals %}
+{% endblock %}
+    <!-- Mainly scripts -->
+    <script src="{% static 'js/jquery211.js' %}"></script>
+    <script src="{% static 'js/bootstrap.js' %}"></script>
+    <script src="{% static 'js/plugins/metisMenu/jquery.metisMenu.js' %}"></script>
+    <script src="{% static 'js/plugins/slimscroll/jquery.slimscroll.min.js' %}"></script>
+    <script src="{% static 'js/plugins/jeditable/jquery.jeditable.js' %}"></script>
+
+    <!-- Custom and plugin javascript -->
+    <script src="{% static 'js/inspinia.js' %}"></script>
+    <script src="{% static 'js/plugins/pace/pace.min.js' %}"></script>
+{% block javascript %}
+{% endblock %}
+{{scripts|safe}}
+<!---//strat-slider-->
+<!--- Hover Efeect -->
+<script type="text/javascript">
+
+$( document ).ready(function() {
+    {% block javascript_ready %}
+    {% endblock %}
+    {{script_ready|safe}}
+
+});
+            // using jQuery
+function getCookie(name) {
+    var cookieValue = null;
+    if (document.cookie && document.cookie != '') {
+        var cookies = document.cookie.split(';');
+        for (var i = 0; i < cookies.length; i++) {
+            var cookie = jQuery.trim(cookies[i]);
+            // Does this cookie string begin with the name we want?
+            if (cookie.substring(0, name.length + 1) == (name + '=')) {
+                cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                break;
+            }
+        }
+    }
+    return cookieValue;
+}
+var csrftoken = getCookie('csrftoken');
+function csrfSafeMethod(method) {
+    // these HTTP methods do not require CSRF protection
+    return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
+}
+$.ajaxSetup({
+    beforeSend: function(xhr, settings) {
+        if (!csrfSafeMethod(settings.type) && !this.crossDomain) {
+            xhr.setRequestHeader("X-CSRFToken", csrftoken);
+        }
+    }
+});
+</script>
+</body>
+
+</html>
+
+
+

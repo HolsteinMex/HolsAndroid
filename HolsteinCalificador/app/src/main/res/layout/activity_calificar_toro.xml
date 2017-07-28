@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    tools:context="com.abetancourt.holsteincalificador.CalificarToro">
+
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearance"
+        android:text="Nombre deñ Toro"
+        android:id="@+id/lblToroNombre"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearance"
+        android:text="No Registro"
+        android:id="@+id/lblToroNoReg"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/lblToroNombre"
+        android:layout_toEndOf="@+id/lblToroNombre" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearance"
+        android:text="Registro Padre"
+        android:id="@+id/lblToroRegPadre"
+        android:layout_below="@+id/lblToroNoReg"
+        android:layout_toRightOf="@+id/lblToroNombre"
+        android:layout_toEndOf="@+id/lblToroNombre" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearance"
+        android:text="Fecha Nacimiento"
+        android:id="@+id/lblToroFechaNac"
+        android:layout_below="@+id/lblToroNombre"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearance"
+        android:text="Calificación Anterior"
+        android:id="@+id/lblToroCalifAnt"
+        android:layout_toRightOf="@+id/lblToroNoReg"
+        android:layout_toEndOf="@+id/lblToroNoReg" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearance"
+        android:text="Clase Anterior"
+        android:id="@+id/lblToroClaseAnt"
+        android:layout_below="@+id/lblToroCalifAnt"
+        android:layout_alignLeft="@+id/lblToroCalifAnt"
+        android:layout_alignStart="@+id/lblToroCalifAnt" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="false"
+        android:id="@+id/scrollView3"
+        android:layout_below="@+id/lblToroRegMadre"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollCalificacion"></LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearance"
+        android:text="Registro Madre"
+        android:id="@+id/lblToroRegMadre"
+        android:layout_below="@+id/lblToroRegPadre"
+        android:layout_alignLeft="@+id/lblToroRegPadre"
+        android:layout_alignStart="@+id/lblToroRegPadre" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearance"
+        android:text="CALIFICAR TORO"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearance"
+        android:text="SOCIO"
+        android:id="@+id/lblToroSocio"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/lblToroCalifAnt"
+        android:layout_toEndOf="@+id/lblToroCalifAnt" />
+
+
+</RelativeLayout>

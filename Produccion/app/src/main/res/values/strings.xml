@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Produccion</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_hatos">Hatos</string>
+    <string name="title_activity_agregar_vaca">Agregar Vaca</string>
+    <string name="reporte_vacas">Crear Reporte de Vacas</string>
+    <string name="title_activity_captura_produccion">CapturaProduccion</string>
+</resources>

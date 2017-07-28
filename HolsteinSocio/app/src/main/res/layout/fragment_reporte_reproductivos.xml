@@ -1,0 +1,162 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.alexbetancourt.holsteinsocio.ReporteDetalles$PlaceholderFragment">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/holstein"
+        android:scaleType = "centerCrop"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:alpha="0.1" />
+    <TextView android:id="@+id/section_label" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Reproductivos"
+        android:id="@+id/textView3"
+        android:layout_alignTop="@+id/section_label"
+        android:layout_toRightOf="@+id/section_label"
+        android:layout_toEndOf="@+id/section_label"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp" />
+    <!--<ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp">
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/horizontalScrollView" >
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:measureWithLargestChild="true"
+                android:baselineAligned="false"
+                android:id="@+id/tablReproductivos"
+                android:divider="?android:attr/dividerHorizontal"
+                android:showDividers="middle">
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:background="#ff20bfff">
+                    <TextView
+                        android:text=""></TextView>
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:text="Edad 1er.\nParto"
+                        android:textStyle="bold"
+                        android:typeface="serif"></TextView>
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/TextView03"
+                        android:text="Dias Primer\nServicio"
+                        android:textStyle="bold"
+                        android:typeface="serif"></TextView>
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/TextView02"
+                        android:text="%Fertilidad \nal 1er\nServicio"
+                        android:textStyle="bold"
+                        android:typeface="serif"></TextView>
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/TextView01"
+                        android:text="Intervalo\nentre\nservicios"
+                        android:textStyle="bold"
+                        android:typeface="serif"></TextView>
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:text="Servicios\npor\nconcepción"
+                        android:textStyle="bold"
+                        android:typeface="serif"></TextView>
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:text="Días\nAbiertos"
+                        android:textStyle="bold"
+                        android:typeface="serif"></TextView>
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:text="Intervalo\nentre\nPartos"
+                        android:textStyle="bold"
+                        android:typeface="serif"></TextView>
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:text="Abortos\n%"
+                        android:textStyle="bold"
+                        android:typeface="serif"></TextView>
+                    <TextView
+                        android:text=""></TextView>
+                </TableRow>
+            </TableLayout>
+        </HorizontalScrollView>
+    </ScrollView>-->
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reprodZoomBar"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:max="10"
+        android:progress="1"
+        android:indeterminate="false"
+        android:layout_toRightOf="@+id/textView2"
+        android:layout_toEndOf="@+id/textView2" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/reprodZoomBar"
+        android:id="@+id/llRepr">
+
+        <com.alexbetancourt.holsteinsocio.TableFixHeaders xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/repTable"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Acercar / Alejar"
+        android:id="@+id/textView2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/reprodZoomBar"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Medium Text"
+        android:id="@+id/txtReprProc"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp" />
+
+</RelativeLayout>

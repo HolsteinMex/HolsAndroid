@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Holstein Calificador</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_hatos">Listado de Hatos</string>
+    <string name="title_activity_agregar_vaca">Agregar Vaca</string>
+    <string name="title_activity_agrear_toro">Agrear Toro</string>
+    <string name="title_activity_calificar_vaca">Calificar Vaca</string>
+    <string name="action_register">Registrar</string>
+    <string-array name="calificaciones">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+
+    <string name="gcm_send_message">Identificador de Notificación recibido.</string>
+    <string name="registering_message">Buscando Identificador único para el Servicio de Notificación...</string>
+    <string name="token_error_message">Un error ha ocurrido intentando recibir el Identificador
+        único para el Servicio de Notificación, por favor reinicie la aplicación.</string>
+    <string name="title_activity_activity_login">Inicio de Sesión</string>
+    <string name="title_activity_calificar_toro">Calificar Toro</string>
+    <string name="reporte_vacas">Crear Reporte de Vacas</string>
+    <string name="reporte_toros">Crear reporte de toros</string>
+</resources>

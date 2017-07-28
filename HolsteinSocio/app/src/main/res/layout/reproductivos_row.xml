@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/rep_tv_region"
+        android:padding="5dp"
+        android:text="Hato"
+        android:textStyle="bold"
+        android:background="#ff20bfff"></TextView>
+    <TextView
+        android:id="@+id/rep_tv_edadmm"
+        android:layout_margin="5dp"
+        android:text="Edad 1er.\nParto"
+        android:textStyle="bold"
+        android:typeface="serif"></TextView>
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/rep_tv_dias1serv"
+        android:text="Dias Primer\nServicio"
+        android:textStyle="bold"
+        android:typeface="serif"></TextView>
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/rep_tv_pfertil1serv"
+        android:text="%Fertilidad \nal 1er\nServicio"
+        android:textStyle="bold"
+        android:typeface="serif"></TextView>
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/rep_tv_interserv"
+        android:text="Intervalo\nentre\nservicios"
+        android:textStyle="bold"
+        android:typeface="serif"></TextView>
+    <TextView
+        android:id="@+id/rep_tv_servxconc"
+        android:layout_margin="5dp"
+        android:text="Servicios\npor\nconcepción"
+        android:textStyle="bold"
+        android:typeface="serif"></TextView>
+    <TextView
+        android:id="@+id/rep_tv_diasab"
+        android:layout_margin="5dp"
+        android:text="Días\nAbiertos"
+        android:textStyle="bold"
+        android:typeface="serif"></TextView>
+    <TextView
+        android:id="@+id/rep_tv_interpartos"
+        android:layout_margin="5dp"
+        android:text="Intervalo\nentre\nPartos"
+        android:textStyle="bold"
+        android:typeface="serif"></TextView>
+    <TextView
+        android:id="@+id/rep_tv_pabortos"
+        android:layout_margin="5dp"
+        android:text="Abortos\n%"
+        android:textStyle="bold"
+        android:typeface="serif"></TextView>
+    <TextView
+        android:id="@+id/rep_tv_region2"
+        android:padding="5dp"
+        android:text="Hato"
+        android:textStyle="bold"
+        android:background="#ff20bfff"></TextView>
+
+</TableRow>

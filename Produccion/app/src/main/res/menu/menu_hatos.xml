@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="com.abetancourt.produccion.Hatos">
+    <item android:id="@+id/action_reporte_vacas" android:title="@string/reporte_vacas"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

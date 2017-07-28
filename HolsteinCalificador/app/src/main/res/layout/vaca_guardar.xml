@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancelar"
+        android:id="@+id/btnVacaCancelar"
+        android:layout_below="@+id/txtVacaComent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:id="@+id/btnVacaGuardarCalif"
+        android:layout_below="@+id/txtVacaComent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtVacaCalif"
+        android:hint="ptos."
+        android:inputType="number"
+        android:layout_alignBottom="@+id/btnVacaGuardarCalif"
+        android:layout_toLeftOf="@+id/btnVacaGuardarCalif"
+        android:layout_toStartOf="@+id/btnVacaGuardarCalif" />
+
+    <Spinner
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerVacaClase"
+        android:layout_toLeftOf="@+id/txtVacaCalif"
+        android:layout_toStartOf="@+id/txtVacaCalif"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/txtVacaComent" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular Final"
+        android:id="@+id/btnVacaCalcular"
+        android:layout_below="@+id/txtVacaComent"
+        android:layout_toLeftOf="@+id/spinnerVacaClase"
+        android:layout_toStartOf="@+id/spinnerVacaClase" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtVacaComent"
+        android:hint="Comentario"
+        android:layout_below="@+id/lblVacaCalifFLechera"
+        android:layout_alignRight="@+id/btnVacaGuardarCalif"
+        android:layout_alignEnd="@+id/btnVacaGuardarCalif"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Anca:"
+        android:id="@+id/lblVacaCalifAnca"
+        android:layout_below="@+id/textView11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Fortaleza Lechera:"
+        android:id="@+id/lblVacaCalifFLechera"
+        android:layout_below="@+id/lblVacaCalifAnca"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Patas y Pezuñas"
+        android:id="@+id/lblVacaCalifPatasYP"
+        android:layout_below="@+id/textView11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="300dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Sistema Mamario"
+        android:id="@+id/lblVacaCalifSistemaM"
+        android:layout_below="@+id/lblVacaCalifPatasYP"
+        android:layout_alignLeft="@+id/lblVacaCalifPatasYP"
+        android:layout_alignStart="@+id/lblVacaCalifPatasYP" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="RESUMEN"
+        android:id="@+id/textView11"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it. -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+    <ListPreference
+        android:key="tabla_height"
+        android:title="@string/pref_tabla_heigth"
+        android:entries="@array/pref_tabla_titles"
+        android:entryValues="@array/pref_tabla_values"
+        android:defaultValue="32"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null" />
+
+    <ListPreference
+        android:key="tabla_width"
+        android:title="@string/pref_tabla_width"
+        android:entries="@array/pref_tabla_width_titles"
+        android:entryValues="@array/pref_tabla_width_values"
+        android:defaultValue="80"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null" />
+
+    <ListPreference
+        android:key="tabla_texto"
+        android:title="@string/pref_tabla_texto"
+        android:entries="@array/pref_texto_titles"
+        android:entryValues="@array/pref_texto_values"
+        android:defaultValue="12"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null" />
+
+    <!-- This preference simply launches an intent when selected. Use this UI sparingly, per
+         design guidelines.
+    <Preference android:title="@string/pref_title_system_sync_settings">
+        <intent android:action="android.settings.SYNC_SETTINGS" />
+    </Preference>-->
+
+</PreferenceScreen>

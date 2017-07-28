@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-contextmanager/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="72eacac37fc64e95d53abd2a041bf81a952d8615">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-contextmanager-9.4.0_06f745e5019947399700dc9c0e4a21ee71202c9b/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-9.4.0_10702860d606aac26ce7f54c6910a7b27ef581ef/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="ece40b09e9d4d488bc270cf6af5a9af73bc1cfa3">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-9.4.0_8540b30149bc6884a7eb82ae17d4f2657b327f27/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.0.0_48acb821db24a2d27986095ebfa65388543154dc/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="d463d8eec1e6c1feef2cec6675ccb47e37c12ee1">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-9.4.0_056da3891c5582c5c4f8e9cd203eded1838ed940/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="8197651ce1af4d89b47f4545cc720bc4f8611e7d">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-9.4.0_b72dc927b6562f630f4f9061370a44139aa043a8/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/libs/david-webb-1.1.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="219dccc05b9bd4cb17e5bcdb51879b8c2091560b">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/2/david-webb-1.1.0_b64d7ed6ebab50af82f618d5ad0c2bfc9214622b/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="954697ee6ea7bdd596babf4f70e8b7a17ca7649e">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-9.4.0_bb9328b52da20f2c53a7cdaed3b56f6ddf90f7e5/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="c10df7344e31161852c20bb8143fc37319aa10ec">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-9.4.0_e335ece2248d0c607216bc381867a3540994d06c/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="736d8893fb702f128a153c9d87c9c29724d37872">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-9.4.0_6c9fba2cfb52751eb49c3f8300d4da15f47f7a1a/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="e454c414a069241ee08444d187f2dd3a702596b5">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-9.4.0_dba99af7dc9adf58d870f0f0263e5544b9c02c32/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="e35002351f2d415093a9b564652d4b56be6a0593">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-places-9.4.0_a0d8f4fd4ed90c05ba644d7e45e0ef903efccd0c/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.4.0_2aa92ecc91111e5ec5b72dd103b57166c9e24d8e/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.0.0_e932c0c774175f7c12c0638963e9cd9b626bd071/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.4.0_3a7e22f2050e256011e71149d2fb3834044da28d/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="dd51b31890731591729f046d7a09c4fe4e483ed1">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-9.4.0_5a158a7e0435eac0978351bc7ea9986131e93c7b/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.0.0_9faea4f357f0bccc2f8aaa3521dd9e34c45c85a4/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/libs/android-zoom-view.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="8ea0253f9d7cff1661f29d4f090773471164f785">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/2/android-zoom-view_842d7d9b414d6b60f8bb83dc55c0ebbfa83d0477/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="6bc41d9d6fd12d2ef23c785a259011001f4a1a5b">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-module-9.4.0_d754a5f18910a7b32712ef66f5eee092aa086892/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="0ad33eb600f3d80bdff5ce355c90d5533ade652a">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-impl-9.4.0_17285effcde8f18a8d4c91fb06ef07309ae40205/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics-core/2.3.4/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="467417b1695583fbaee8de0e5f4202b6a2b578e1">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.crashlytics.sdk.android-crashlytics-core-2.3.4_0d0b1b4e25ed65693d7263a4049c8bd997d84f51/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="b15f898c9047f9d612a63000126b485dd024eaac">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-9.4.0_7bc0ccc1c17671d2b13181c9a61dff2e0c66c6f8/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.4.0_3c93042883e8a1613a9f0ef539bff1b6e8404878/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="7ea53c4458b80e8ea71f7fd6831fa184c501377b">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-api-9.4.0_5b6679e7ab3710f9bc420f0b513c4e99f283f372/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="98e97da89d4df8e2f6eba63498d3d46a587372f2">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-9.4.0_116ad8263d0d1ac721b1aba939a00098ea7e2d30/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="e6e2251f3d3abf4eecd6bf6919d41fc7af497852">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-9.4.0_c49967faedd9648b1b12dbc8e51c790acee2b012/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="147edbec6bcea71fd675ecc63cae3319637ec2b4">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-9.4.0_b8c0d4ab723ad70e3ad2c53a0c5ac7697dc150e6/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="84bf369090a8f7e293817efbd6ccf31ada1be32b">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-9.4.0_33a002ba6833bf129ab6cb4fd8fe71776d5191ba/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.4.0_f82c72f2b5a9871c6d6786661a7f479be54a7b29/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-23.0.0_743c55b1776d9a60f089eecac7e162b04449f3e7/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="8ce5e7a4a146dddd1d9e66b09c714a6c149916d8">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-9.4.0_7f9fba60e0cc83d9dda2a19f8e5743af9fe4159b/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="461e4257888c25ec05abcd91e758fe7f4949230a">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-9.4.0_f49a9bb04f3e37e8b06ae32fb6f83832f4c329b1/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="59a16a4a42d25b2c243dd1e8aea87d06895b4a06">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-iid-9.4.0_af314939a9e54c54766ccb8b1decbb439e5bd606/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.5/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="6e65060ef2ec6ec98365250d2119d7968626fd3f">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/io.fabric.sdk.android-fabric-1.3.5_28283d17de753ff1f4bc140e6fc7affd4d876c10/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="58c9f5ee817fdb8b658fd7455fadfb74119f7ee9">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-9.4.0_73416e4a8e3b2f1ba2a4191f9b8a3c2c261b5b9d/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.0.0_2d2fecf91da8b08f74c98adcb5a5cea4ad78f9a8/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/answers/1.3.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="441ace5a20e7fcf94f30b4394d882ed2f79237c3">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.crashlytics.sdk.android-answers-1.3.1_cdd2c50027e6b102a954d3c8d600ee073e552644/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="03829a2618892d438a1f59c6286699ca1f476e93">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-framework-9.4.0_529508aaf911f25725a2613764d69664e56832cb/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="670df81539ab71918d49b186598b7eff08ef6563">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-9.4.0_60d2aec9aac150ade8e946009646165c1dc284ff/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics/2.5.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2b1fb39b3c4feeb031b00744fbbe464e3d31a88d">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.crashlytics.sdk.android-crashlytics-2.5.1_0bf1f24a51a73ab61e53d7a67c1d88e22aabfb17/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="34762013d39dbe6c656050589c44e8b61b9a2c5d">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-common-9.4.0_8b6cc53a3f0fc76118ce18844adcf0fb6506be80/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.4.0_9693044e39fad362744e2db4e8cd70b0033af826/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="7bc6ea2bcfd6de4b7085e0f3a01616c5c8e0e2ad">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-9.4.0_6e17436edffdfed49398a19f0336b802998195d4/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-9.4.0_9fba3fee4684054798822d45e505958f30321b3c/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="dab6944860c986980dcc6002a5ca2f127b587317">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-config-9.4.0_3a007c0e06022fd0e926e6c2715f84c37312a1bf/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="a432629397351d3ec7f27a23d258b229b81af08f">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-9.4.0_5a7a8b6326a6094d6ab3e8a8e78fee6f4edd708f/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="5e04c0b3683ca45b343284d93e5594b5f9044551">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-9.4.0_fc3d93d1cfc7b7974b2ecf39aea42bb2d13d62e7/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="0e4d53465cc141bec58f18a894e4c4e80633fa32">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-9.4.0_2a0892b03f05843a8b6fe9d23fe3805b18c543a1/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="f49bd80bba4eebb5d51b5cccca3e7819dd2ca4d9">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_8be6b80345a360f337063fc9474984e48ec4bba8/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.0.0_3c6a0e2bf37a969b347983ee8768599a2f5f4b77/classes.dex" />
+    </item>
+    <item
+        jar="/home/mordor/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/24.0.0/2943c74db6d4346ab8c6531adac91fa05c137c40/support-annotations-24.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0_34eb3dd4cf6fcc22f31e7f0ab32d6d8161a9b421/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="c8f5d56f8f8a287c95e02c542baade138a378048">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-9.4.0_1110480975e7885d9befa45d797b9f1f3e77c352/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="e5e8e535d15834e824817bdf5370556f62b4b2a5">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-9.4.0_d773333b12048e5d445d2d76e15f646129e83745/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.4.0_c61af1a0c8328b52c1603355c997d5a7d8e556d0/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="3b7173b3df4c7029699919414400041f64519e34">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.4.0_c36dda67e2d8c573da601c5c928c388d4a7ff605/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/beta/1.1.3/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="b7a78990c10481f43cb4909f535ef4f11e60f1ab">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.crashlytics.sdk.android-beta-1.1.3_277982d02e3f6a2b2de8ba43e24f25a0e6b0f0f2/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="ca96851739bafcc8d236ecfc14457da9b043c7f5">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_3ae662e6bccef87b60c28e621472e5d3253c6954/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_03551c0d924ec889710e2db6e297b82c9567e24a/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="ba47b210d36301e237ccfea860eaada04590f12a">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-9.4.0_b3cc678664903f67c598769767a43b03eb6b9727/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="dd763e0269f2854f5828ae62dd968b80bff6a0db">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-9.4.0_f2cb2fc670c9f7488ab92db4d76d5e979f2232a4/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-multidex-1.0.1_ccb5ed473bf84767f06d79e3f0c0b671e96437dc/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="d49118ba67a101c4895f0581f17142cba85b330b">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-9.4.0_ac71e85c931d36b9fd6e0cf24cbe40f973fb438e/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="4b630471536351be7c3c3100735c75b7ad2cbd84">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-9.4.0_65fbf76467918e91e609a52030599d0e4a1ff83b/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="4348dd26d83b56c2058b768222c3271bce911724">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-9.4.0_42f6b377e4fc8d1d057d8c2bcdcc742f39b69013/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="b1acf13f1b7d8232af78a30833f9a966d1394c84">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-9.4.0_2c1c7b5fc997846a887243d76a1e3d2c371a14bd/classes.dex" />
+    </item>
+    <item
+        jar="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="0b060160e7daee343f5315b3da91b0ff2d7eed89">
+        <dex dex="/archivos/ALEX/HOLSTEIN/HolsteinSocio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-9.4.0_9657f6a4025362f1243cde981a32f797cd48b288/classes.dex" />
+    </item>
+
+</items>
